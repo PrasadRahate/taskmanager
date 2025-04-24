@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-4">
+    <h2>Product List</h2>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">Product Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+
+                <!-- Show Actions column for all users, Admin can edit/delete -->
+                <th scope="col">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="product : ${products}">
+                <td th:text="${product.name}">Product Name</td>
+                <td th:text="${product.description}">Description</td>
+                <td th:text="${#numbers.formatDecimal(product.price, 1, 'COMMA', 2, 'POINT')}">Price</td>
+
+                <!-- Actions for Add, Edit, Delete visible for all users -->
+                <td>
+                    <a th:href="@{/products/view/{id}(id=${product.id})}" class="btn btn-info btn-sm">View</a>
+
+                    <!-- Edit and Delete visible for Admin and normal user -->
+                    <a th:href="@{/products/edit/{id}(id=${product.id})}" class="btn btn-warning btn-sm" sec:authorize="hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')">Edit</a>
+
+                    <a th:href="@{/products/delete/{id}(id=${product.id})}"
+                       class="btn btn-danger btn-sm"
+                       sec:authorize="hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')"
+                       onclick="return confirm('Are you sure you want to delete this product?')">Delete</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Add Product Button - Visible for all users, only redirect on success -->
+    <div>
+        <a href="/products/add" class="btn btn-primary">Add New Product</a>
+    </div>
+</div>
+
+<!-- Include Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
