@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="918480c6-49c5-4f38-9c5c-bf4fab7ca9eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Dto/CreateTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Dto/UserCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Http/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Http/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Http/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Http/UpdateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Models/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Models/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Repository/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Security/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/TaskService/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/TaskService/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/TaskmanagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/UserService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/UserService/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/taskmanager/Utils/JWTUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/taskmanager/TaskmanagerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Dto/CreateTaskRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Dto/TaskDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Dto/UserCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/Request$RequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/Response$ResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Http/UpdateUserRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Models/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Models/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Models/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Repository/CustomUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Security/JWTAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/TaskService/TaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/TaskService/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/TaskmanagerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/UserService/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/UserService/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/app/taskmanager/Utils/JWTUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taskmanager-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/taskmanager-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/app/taskmanager/TaskmanagerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2yDLlNe5PR3t7w1qtBBgXeGud70" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/02-PrasadSpring/Github/taskmanager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="TaskmanagerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.taskmanager.TaskmanagerApplication" />
+      <module name="taskmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.taskmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TaskmanagerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="918480c6-49c5-4f38-9c5c-bf4fab7ca9eb" name="Changes" comment="" />
+      <created>1749364348076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749364348076</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
